@@ -1,0 +1,125 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #101010;
+}
+.container{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+}
+canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+section.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    color: aliceblue;
+    background-size: cover;
+	
+}
+
+.common-div{
+ top: 50%; /* IMPORTANT */
+        left: 50%; /* IMPORTANT */
+        display: block;
+        position: absolute;
+        width: 750px;
+        height: 417px;
+        margin-top: -208.5px; /* HALF OF THE HEIGHT */
+        margin-left: -375px; /* HALF OF THE WIDTH */
+}
+
+
+.heading{
+	 font-family: 'Permanent Marker', cursive;
+    text-align: center;	
+	color:white;
+	margin-bottom: -5%;
+	}
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+	margin-left: 20%;
+}
+.item {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Silkscreen', cursive;
+}
+
+.item .count_down {
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
+	color:white;	
+	margin-bottom: -5%;
+}
+
+.item h4{
+	font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+	color:white;
+}
+
+h2 {
+  position: relative;
+  font-size: 6em;
+  color: #0e3742;
+  text-transform: uppercase;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-reflect: below -42px linear-gradient(transparent, #0004);
+
+}
+h2 span {
+  animation: animate 5s linear infinite;
+}
+
+h2 span:nth-child(even) {
+  animation-delay: 0.4s;
+}
+
+@keyframes animate {
+  0%,
+  18%,
+  20%,
+  50.1%,
+  60%,
+  65.1%,
+  80%,
+  90.1%,
+  92% {
+    color: #0e3742;
+    text-shadow: none;
+  }
+
+  18.1%,
+  20.1%,
+  30%,
+  50%,
+  60.1%,
+  65%,
+  80.1%,
+  90%,
+  92.1%,
+  100% {
+    color: #fff;
+    text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4,
+      0 0 80px #03bcf4, 0 0 160px #03bcf4, 0 0 400px #03bcf4;
+  }
+}
