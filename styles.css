@@ -67,6 +67,11 @@ section.container {
     font-family: 'Permanent Marker', cursive;
 	color:white;	
 	margin-bottom: -5%;
+	
+}
+
+.countdown{
+	margin-left: 10%;
 }
 
 .countdown h4{
@@ -131,7 +136,7 @@ h2 span:nth-child(even) {
   color: #f5f2eaba;	
   width: 100%;
   font-style: italic;
-  margin-left: 27%;
+  margin-left: 30%;
   align-items: center;
   justify-content: space-around;
   animation: spanimation 1s ease-in-out infinite;
