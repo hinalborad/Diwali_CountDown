@@ -120,20 +120,21 @@ h2 {
   width: 100%;
   justify-content: center;
   align-items: center;
-  margin-left: 10%;
   -webkit-box-reflect: below -42px linear-gradient(transparent, #0004);
 
 }
 
 @media screen and (min-width: 1001px) {
   h2 {    
-    font-size: 6em;
+    font-size: 6em;	  
+    margin-left: 10%;
   }
 }
 
 @media screen and (max-width: 1000px) {
   h2 {
-    font-size: 6em;
+    font-size: 6em;	  
+  margin-left: 5%;
   }
 }
 
