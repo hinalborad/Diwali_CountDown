@@ -29,14 +29,14 @@ section.container {
 }
 
 .common-div{
- top: 50%; /* IMPORTANT */
+ top: 40%; /* IMPORTANT */
         left: 50%; /* IMPORTANT */
         display: block;
         position: absolute;
         width: 750px;
         height: 417px;
         margin-top: -208.5px; /* HALF OF THE HEIGHT */
-        margin-left: -375px; /* HALF OF THE WIDTH */
+        margin-left: -370px; /* HALF OF THE WIDTH */
 }
 
 
@@ -82,7 +82,8 @@ h2 {
   text-transform: uppercase;
   width: 100%;
   justify-content: center;
-  align-items: center;	
+  align-items: center;
+  margin-left: 10%;
   -webkit-box-reflect: below -42px linear-gradient(transparent, #0004);
 
 }
@@ -122,4 +123,16 @@ h2 span:nth-child(even) {
     text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4,
       0 0 80px #03bcf4, 0 0 160px #03bcf4, 0 0 400px #03bcf4;
   }
+}
+
+.content h4 {
+  position: relative;
+  font-size: 1.4em;
+  color: #f5f2eaba;	
+  width: 100%;
+  font-style: italic;
+  margin-left: 30%;
+  align-items: center;
+  justify-content: space-around;
+  animation: spanimation 1s ease-in-out infinite;
 }
