@@ -42,7 +42,7 @@ section.container {
 
 .heading{
 	 font-family: 'Permanent Marker', cursive;
-    text-align: center;	
+         text-align: center;	
 	color:white;
 	margin-bottom: -5%;
 	}
@@ -60,13 +60,13 @@ section.container {
     align-items: center;
     font-family: 'Silkscreen', cursive;
 }
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 1001px) {
   .item {    
     font-size: 16px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .item {
     font-size: 20px;
   }
@@ -80,13 +80,13 @@ section.container {
 	
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 1001px) {
   .item .count_down {    
     font-size: 40px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .item .count_down {
     font-size: 50px;
   }
@@ -101,13 +101,13 @@ section.container {
 	color:white;
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 1001px) {
   .countdown {    
     font-size: 20px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .countdown {
     font-size: 30px;
   }
@@ -126,13 +126,13 @@ h2 {
 
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 1001px) {
   h2 {    
     font-size: 6em;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   h2 {
     font-size: 7em;
   }
@@ -187,13 +187,13 @@ h2 span:nth-child(even) {
   animation: spanimation 1s ease-in-out infinite;
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 1001px) {
   .content h4 {
     font-size: 1.5em;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .content h4 {
     font-size: 2.5em;
   }
