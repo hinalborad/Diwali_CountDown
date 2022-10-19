@@ -106,7 +106,7 @@ section.container {
 @media screen and (max-width: 1000px) {
   .countdown {
     font-size: 30px;
-   margin-left: 5%;
+   margin-left: 2%;
   }
 }
 
@@ -131,7 +131,7 @@ h2 {
 @media screen and (max-width: 1000px) {
   h2 {
     font-size: 6em;	  
-  margin-left: 4%;
+  margin-left: 2%;
   }
 }
 
@@ -193,6 +193,6 @@ h2 span:nth-child(even) {
 @media screen and (max-width: 1000px) {
   .content h4 {
     font-size: 2em;
-    margin-left: 10%;
+    margin-left: 5%;
   }
 }
